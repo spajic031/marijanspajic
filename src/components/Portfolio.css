@@ -1,0 +1,273 @@
+
+.wrapper{
+margin-top: 10rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-image: url(/public/img/bg2.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: 100%
+}
+.mainWrapper{
+    margin-top: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   }
+.header-text{
+    font-weight: 400;
+}
+.window{
+    height: 30rem;
+    width: 60rem;
+    background-color: white;
+    border-radius: 2rem;
+    margin: 2rem 10rem;
+    background-size: 100%;
+    transition: ease-out 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.window:hover{
+
+    transition: ease-out 1s;
+    background-size: 115%;
+    color: rgb(0, 0, 0);
+}
+
+.row{
+    margin: -10rem 0 10rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.w1{
+    background-image: url(/public/img/snet.png);
+    background-position: center;
+
+}
+.w2{
+  background-image: url(images/issLive.png);
+    background-position: center;
+}
+
+.w4{
+    background-image: url(/public/img/lenser.png);
+    background-position: center;
+
+}
+.w5{
+    background-image: url(/public/img/hugree.png);
+    background-position: center;
+
+}
+.w6{
+    background-image: url(/public/img/watchMarket.png);
+    background-position: center;
+
+}
+/* MODAL+++++++++++++ */
+body.active-modal {
+    overflow-y: hidden;
+}
+.hidden{
+  display: none;
+}
+.btn{
+  padding: 1rem 2rem;
+  margin: 3rem;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #000000;
+  border: 1px solid white;
+  border-radius: .7rem;
+}
+.btn-modal {
+    
+   background:none;
+    display: block;
+    border: none;
+    
+}
+
+.modal, .overlay {
+    animation: backgroundAnim 1s ease-in-out ;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+
+.img-modal{
+    height: auto;
+    width: auto;
+}
+.modal-text{
+  font-size: 200%;
+  margin: 1rem 5rem;
+}
+.modal-content {
+    color: black;
+    position: absolute;
+   /*  top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* line-height: 1.4; */
+    background: #000000;
+    padding: 14px 28px;
+    border-radius: 3px;
+    width: 90%;
+    height: 80rem;
+    overflow-y: auto;
+    
+}
+.modal-content::-webkit-scrollbar {
+    display: none;}
+
+.close-modal {
+   
+    position: fixed;
+    height: 3rem;
+    width: auto;
+    top: 10%;
+    right: 9%;
+    background-color: #00000049;
+    padding: 1rem;
+    border-radius: 50%;
+}
+/* RESPONSIVE */
+@media only screen and (max-width: 1400px) {
+  
+    .window{
+      height: 25rem;
+      width: 50rem;
+      margin: 1.7rem 3rem;
+    }
+    .row{
+        margin: 0;
+    }
+    .modal-content{
+      height: 100vh;
+      width: 100vw;
+      padding: 0;
+  }
+  .img-modal{
+    height: auto;
+    width: 90vw;
+}
+  }
+@media only screen and (max-width: 1200px) {
+  
+    .window{
+      height: 18rem;
+      width: 35rem;
+      margin: 1rem 1rem;
+    }
+    .close-modal {
+      background-color: #00000049;
+      position: fixed;
+      height: 1.9rem;
+      width: auto;
+      top: 2%;
+      right: 4%;
+      padding: 1rem;
+      border-radius: 50%;
+  }
+  .img-modal{
+    height: auto;
+    width: 100vw;
+}
+
+  }
+  @media only screen and (max-width: 1000px) {
+  
+    .window{
+      height: 15rem;
+      width: 32rem;
+      margin: .5rem;
+    }
+    .modal-content{
+      height: 100vh;
+      width: 100vw;
+      padding: 0;
+  }
+  .close-modal {
+    
+    height: 1.3rem;
+    width: auto;
+    top: 2%;
+    right: 2%;
+    padding: 1rem;
+    border-radius: 50%;
+}
+ 
+
+   
+  }
+  @media only screen and (max-width: 820px) {
+  
+    .window{
+      height: 11rem;
+      width: 24rem;
+      margin: 0rem;
+      border-radius: 0;
+    }
+     
+   
+  }
+  @media only screen and (max-width: 580px) {
+    .wrapper{
+        margin: 5rem 0;
+         background-size: 130%;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+    .header-text{
+        font-size: 1.6rem;
+    }
+    .mainWrapper{
+          margin-top: 5rem;
+          flex-direction: column;
+          justify-content: center;
+         align-items: center;
+    }
+    .window{
+      height:16rem;
+      width: 100vw;
+      margin: 1rem 1rem;
+      border-radius: 0;
+      margin: 0;
+    }
+   
+  }
+  @media only screen and (max-width: 400px) {
+ 
+    .window{
+      height:13rem;
+      width: 100vw;
+      
+    }
+   
+  }

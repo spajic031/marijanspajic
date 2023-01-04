@@ -1,0 +1,26 @@
+*{
+    color: white;
+  
+}
+.navi{
+    position: fixed;
+    width: 97vw;
+    display: flex;
+    justify-content: space-between;
+    align-self:center; 
+    padding: .1rem 2rem;
+    background-color: rgb(0, 0, 0);
+}
+.sections{
+    display: flex;
+   justify-content: center;
+   align-self:center; 
+}
+.btn{
+    margin:  1.5rem;
+    font-size: 2rem;
+}
+.logo{
+    margin:  1.5rem;
+    font-size: 2rem;
+}

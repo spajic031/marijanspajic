@@ -1,0 +1,233 @@
+.app{
+ height: 100vh;
+ width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header{
+  text-align: center;
+  background-image: url(/public/img/background.png) ;
+  background-position: center;
+  background-size: 95%;
+  background-repeat: no-repeat;
+  height: 100vh;
+ 
+  animation:  backgroundAnim 3s ease-in-out ;
+  
+ 
+}
+
+.mainText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  padding: 10% 15rem;
+  animation: startAnim 4s ease-in;
+
+}
+a{
+  text-decoration: none;
+}
+.contactBtn{
+  margin: 7rem 0 10rem 0  ;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid white;
+  border-radius: 2rem;
+  padding: .8rem 2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  transition: ease-out 0.5s;
+  color: white;
+  
+}
+.contactBtn:hover{
+  transition: ease-out 0.3s;
+  background-color: white;
+  color: black;
+}
+.arrow{
+  
+  position: absolute;
+  bottom: 5rem;
+  height: 2rem;
+  width: 2rem;
+  animation: arrowAnim 2s ease-in-out infinite ;
+}
+
+h2{
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 4rem;
+  padding: 3rem;
+}
+
+/*ANIMATIONS*/
+@keyframes arrowAnim{
+  0%{
+     
+     bottom: 10;
+     opacity: 0;
+     
+  }
+  20%{
+    opacity: 100%;
+  }
+  80%{
+     
+     bottom: 0;
+     opacity: 0;
+     
+     
+  }
+  100%{
+    padding-top: 0;
+    opacity: 0;
+  }
+}
+@keyframes startAnim{
+  0%{
+     
+     opacity: 0;
+     
+  }
+  
+  100%{
+    opacity: 100;
+  }
+}
+@keyframes backgroundAnim{
+  0%{
+     
+     opacity: 10%;
+     background-size: 0;
+  }
+
+ 
+  100%{
+    opacity: 100%;
+    background-size: 95%;
+  }
+ 
+}
+
+@keyframes backgroundAnim2{
+  0%{
+     
+     opacity: 0;
+     background-size: 20rem;
+     
+  }
+  
+  
+  100%{
+    opacity: 100%;
+    background-size: 120rem;
+  }
+ 
+}
+/* RESPONSIVE */
+
+
+@media only screen and (max-width: 1200px) {
+  html{
+      font-size: 80%;
+  }
+  .mainText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 20rem 1rem;
+   }
+  h2{
+    font-size: 3rem;
+    padding: 0;
+    margin: 3rem;
+  }
+  .contactBtn{
+    margin: 4rem 0 8rem 0  ;
+    
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    
+  }
+  .header{
+  height: 100vh;
+  background-size: 120rem;
+  animation: backgroundAnim2 2.5s ease-in-out ;
+  }
+  
+ 
+}
+
+@media only screen and (max-width: 800px) {
+  .mainText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 40% 1rem;
+   }
+  h2{
+    font-size: 2.2rem;
+    padding: 0;
+    margin: 3rem;
+  }
+  .contactBtn{
+    margin: 4rem 0 8rem 0  ;
+    
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    
+  }
+  .header{
+  height: 100vh;
+  background-size: 120rem;
+  animation: backgroundAnim2 2.5s ease-in-out ;
+  }
+ 
+}
+
+@media only screen and (max-width: 650px) {
+  .arrow{
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  .mainText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 35% 1rem;
+   }
+  h2{
+    font-size: 2.2rem;
+    padding: 0;
+    margin: 3rem;
+  }
+  .contactBtn{
+    margin: 4rem 0 8rem 0  ;
+    
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    
+  }
+  .header{
+  height: 100vh;
+  background-size: 120rem;
+  animation: backgroundAnim2 2.5s ease-in-out ;
+  }
+  
+}
