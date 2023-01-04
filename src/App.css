@@ -99,10 +99,10 @@ h2{
   }
 }
 @keyframes backgroundAnim{
-  0%{
+ 0%{
      
-     opacity: 10%;
-     background-size: 0;
+     opacity: 0;
+     background-size: 60%;
   }
 
  
@@ -117,7 +117,7 @@ h2{
   0%{
      
      opacity: 0;
-     background-size: 20rem;
+     background-size: 50rem;
      
   }
   
