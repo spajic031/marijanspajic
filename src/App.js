@@ -24,6 +24,20 @@ function App() {
         <Suspense fallback={<h1>Loading...</h1>}>
           <Portfolio />
         </Suspense>
+        <div className="footer">
+          {" "}
+          <img
+            className="s-icon"
+            src={"/icons/javascript.png"}
+            alt="javascript"
+          />
+          <img
+            className="s-icon"
+            src={"/icons/typescript.png"}
+            alt="typescript"
+          />
+          <img className="s-icon" src={"/icons/angular.png"} alt="angular" />
+        </div>
       </div>
     </div>
   );

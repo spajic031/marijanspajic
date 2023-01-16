@@ -24,7 +24,7 @@ margin-top: 10rem;
     height: 30rem;
     width: 60rem;
     background-color: white;
-    border-radius: 2rem;
+    border-radius: 1rem;
     margin: 2rem 10rem;
     background-size: 100%;
     transition: ease-out 0.5s;
@@ -55,10 +55,13 @@ margin-top: 10rem;
 
 }
 .w2{
-  background-image: url(images/issLive.png);
+  background-image: url(/public/img/issLive.png);
     background-position: center;
 }
-
+.w3{
+  background-image: url(/public/img/uhrApp.png);
+    background-position: center;
+}
 .w4{
     background-image: url(/public/img/lenser.png);
     background-position: center;
@@ -260,8 +263,20 @@ body.active-modal {
       border-radius: 0;
       margin: 0;
     }
+    .modal-text{
+      font-size: 150%;
+      margin: 3rem 1.5rem;
+    }
+    .btn{
+     
+      margin:.3rem;
+      padding: .8rem 3rem;
+     
+      
+    }
    
   }
+
   @media only screen and (max-width: 400px) {
  
     .window{

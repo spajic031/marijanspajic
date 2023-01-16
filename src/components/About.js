@@ -30,7 +30,7 @@ class About extends React.Component {
       <div className="about">
         <div className="aboutMain">
           <div className="profile">
-            <img className="image" src={"/img/profile.png"} alt="profile" />
+            <img className="image" src={"/img/profile2.png"} alt="profile" />
             <div className="mail-adress">
               <div className="email">
                 <img className="icon" src={"/icons/email.png"} alt="email" />

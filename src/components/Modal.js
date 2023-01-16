@@ -32,7 +32,7 @@ export default function Modal(props) {
               <h1>{props.header}</h1>
               <img
                 className="img-modal"
-                src={require("./images/" + props.img)}
+                src={require("/public/img/" + props.img)}
                 alt="design"
               />
               <p className="modal-text">{props.text}</p>
