@@ -13,22 +13,21 @@ class Portfolio extends React.Component {
       w5: "hungree",
       w6: "watchMarket",
     };
-    this.open = this.open.bind(this);
   }
-  open() {
-    <div>balbalbab</div>;
-  }
+
   render() {
     return (
       <div className="porfolio">
         <div className="wrapper">
-          <h1 className="header-text">Meine Projekte</h1>
+          <h1>Meine Projekte</h1>
           <div className="mainWrapper">
             <div className="row">
               <h1>Entwicklung</h1>
               <div className="w1 window">
                 <Modal
-                  text="Snet ist eine Social Media App die ich mit Javascript entwickelt habe. Als datenbank habe ich MockAPI webseite benutzt."
+                  text="Die Social Media App SNET habe ich mit JavaScript entwickelt. 
+                  Es handelt sich um eine voll funktionstüchtige App, in der man sich ein persönliches Login erstellen, Posts erstellen, liken und kommentieren kann.
+                  Als Datenbank habe ich REST API 'MockAPI' benutzt."
                   img="snet.png"
                   class1="btn"
                   class2="btn"
@@ -40,8 +39,8 @@ class Portfolio extends React.Component {
               </div>
               <div className="w2 window">
                 <Modal
-                  text="IssLive ist eine App die Live video und position von International space station zeigt. 
-                  Die App habe ich mit React entwickelt. Mit hilfe von Leaflet map bibliothek und WhereIsIss.at REST API für live position der ISS."
+                  text="IssLive ist eine App die Live Video und Position der International Space Station zeigt. 
+                  Zur Entwicklung der App nutzte ich React. Die Karten stammen von der Leaflet Bibliothek, die Live Position der Iss von WhereIsIss.at REST API."
                   img="issLive.png"
                   class1="btn"
                   class2="btn"
@@ -53,8 +52,7 @@ class Portfolio extends React.Component {
               </div>
               <div className="w3 window">
                 <Modal
-                  text="IssLive ist eine App die Live video und position von International space station zeigt. 
-                      Die App habe ich mit React entwickelt. Mit hilfe von Leaflet map bibliothek und WhereIsIss.at REST API für live position der ISS."
+                  text="Die UhrApp ist eine einfache App in der eine Stoppuhr, ein Timer und ein Wecker inkludiert sind. Entwickelt wurde sie von mir in Vue.js und Vuetify Bibliothek."
                   img="uhrApp.png"
                   class1="btn"
                   class2="btn"

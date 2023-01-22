@@ -17,9 +17,7 @@ margin-top: 10rem;
     align-items: center;
   
    }
-.header-text{
-    font-weight: 400;
-}
+
 .window{
     height: 30rem;
     width: 60rem;
@@ -127,8 +125,8 @@ body.active-modal {
     width: auto;
 }
 .modal-text{
-  font-size: 200%;
-  margin: 1rem 5rem;
+  font-size: 180%;
+  margin: 1rem 25rem;
 }
 .modal-content {
     color: black;

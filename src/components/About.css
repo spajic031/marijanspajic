@@ -1,4 +1,6 @@
 .about{
+    height: 80vh;
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,19 +42,33 @@
     width: 60%;
     margin: 0 1rem;
 }
-p{
-    font-family: "Montserrat", sans-serif;
+p, .href{
+    transition: ease-in-out .5s;
     color: white;
     font-weight: 200;
     font-size: 1.5rem;
+    padding: 1rem 0;
+}
+.href:hover{
+    color: rgb(58, 117, 226);
 }
 h1{
-    font-family: "Montserrat", sans-serif;
+   
     color: white;
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 3.5rem;
     padding: .1rem;
     text-align: left;
+}
+h3{
+    
+    color: white;
+    font-weight: 200;
+    font-size: 2.5rem;
+    padding: .1rem;
+    text-align: left; 
+    
+    
 }
 .icon{
     height: 2rem;
@@ -84,7 +100,8 @@ h1{
     h1{
         font-size: 2rem;
     }
-    p{
+    h3{ font-size: 1.6rem; }
+    p, .href{
         font-size: 1.3rem;
     }
     .image{
@@ -115,7 +132,8 @@ h1{
     h1{
         font-size: 1.5rem;
     }
-    p{
+    h3{ font-size: 1.3rem; }
+    p, .href{
         font-size: 1rem;
     }
     .image{
@@ -173,7 +191,9 @@ h1{
         font-size: 1.4rem;
         text-align: center;
     }
-    p{
+    h3{ font-size: 1.2rem;
+        text-align: center; }
+    p, .href{
         font-size: 1rem;
     }
     .image{

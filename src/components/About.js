@@ -22,7 +22,7 @@ class About extends React.Component {
     this.setState({ text: this.state.icons[i] });
     setTimeout(() => {
       this.setState({ text: "Meine Fähigkeiten" });
-    }, 1500);
+    }, 1200);
   }
 
   render() {
@@ -30,11 +30,13 @@ class About extends React.Component {
       <div className="about">
         <div className="aboutMain">
           <div className="profile">
-            <img className="image" src={"/img/profile2.png"} alt="profile" />
+            <img className="image" src={"/img/profile1.png"} alt="profile" />
             <div className="mail-adress">
               <div className="email">
                 <img className="icon" src={"/icons/email.png"} alt="email" />
-                <p>marijanspajic031@gmail.com</p>
+                <a href="mailto:marijanspajic92@gmail.com" className="href">
+                  marijanspajic92@gmail.com
+                </a>
               </div>
               <div className="adress">
                 <img
@@ -42,21 +44,26 @@ class About extends React.Component {
                   src={"/icons/location.png"}
                   alt="location"
                 />
-                <p>Karlsruhe, Germany</p>
+                <a
+                  href="https://www.google.com/maps/place/Karlsruhe/@49.0158278,8.3393227,12z/data=!3m1!4b1!4m5!3m4!1s0x47970648a2e07809:0xb6fc55734cb7ee7f!8m2!3d49.0068901!4d8.4036527"
+                  className="href"
+                >
+                  Karlsruhe, Germany
+                </a>
               </div>
             </div>
           </div>
           <div className="aboutText">
             <h1>Hallo!</h1>
             <h1>Mein Name ist Marijan Spajić</h1>
-            <h1>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-              amet, consetetur
-            </h1>
+            <h3>
+              Ich bin Web Application Developer und UX/UI Designer. Zurzeit lebe
+              ich in Karlsruhe. Begeistert und engagiert programmiere und
+              gestalte ich Web Anwendungen - angefangen beim Design über
+              Frontend bis Backend. Meine Interessen liegen in den neusten
+              Technologien, der Web-Entwicklung und in der allgemeinen
+              Informatik.
+            </h3>
           </div>
         </div>
         <div className="skills">

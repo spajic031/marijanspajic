@@ -7,13 +7,15 @@ html {
 body {
   margin: 0;
   height: 100vh;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
-  font-weight: 200;
- background-color: black;
+  background-color: black;
+  
+ 
 
 
 }
 body::-webkit-scrollbar{
   display: none;
 }
+
