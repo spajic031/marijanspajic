@@ -1,13 +1,29 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
+/* import App from "./App"; */
 import reportWebVitals from "./reportWebVitals";
+import { lazy, Suspense } from "react";
+import { BarLoader } from "react-spinners";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+const App = lazy(() => import("./App"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Suspense
+      fallback={
+        <BarLoader
+          loading="true"
+          color="rgba(54, 152, 214, 1)"
+          height="1rem"
+          width="100vw"
+          speedMultiplier=".5"
+        />
+      }
+    >
+      {" "}
+      <App />
+    </Suspense>
   </React.StrictMode>
 );
 
