@@ -5,7 +5,7 @@ margin-top: 10rem;
  flex-direction: column;
  justify-content: center;
  align-items: center;
- background-image: url(/public/img/bg2.png);
+ background-image: url(/public/img/bg2.webp);
  background-position: center;
  background-repeat: no-repeat;
  background-size: 100%
@@ -131,10 +131,6 @@ body.active-modal {
 .modal-content {
     color: black;
     position: absolute;
-   /*  top: 50%;
-    left: 50%; */
-    /* transform: translate(-50%, -50%); */
-    /* line-height: 1.4; */
     background: #000000;
     padding: 14px 28px;
     border-radius: 3px;
@@ -159,7 +155,10 @@ body.active-modal {
 }
 /* RESPONSIVE */
 @media only screen and (max-width: 1400px) {
-  
+  .modal-text{
+   
+    margin: 1rem 5rem;
+  }
     .window{
       height: 25rem;
       width: 50rem;
