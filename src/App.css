@@ -12,8 +12,9 @@
   background-size: 95%;
   background-repeat: no-repeat;
   height: 100vh;
- 
-  animation:  backgroundAnim 3s ease-in-out ;
+  
+
+  animation:  backgroundAnim 2s ease-in-out ;
   
  
 }
@@ -24,7 +25,7 @@
   flex-direction: column;
   justify-content: center;
   align-items:center;
-  padding: 10% 15rem;
+  padding:10%;
   animation: startAnim 4s ease-in;
 
 }
@@ -63,6 +64,7 @@ h2{
   font-weight: 500;
   font-size: 5rem;
   padding: 3rem;
+  
 }
 .footer{
   width: 100%;
@@ -107,7 +109,7 @@ h2{
  0%{
      
      opacity: 0;
-     background-size: 60%;
+     background-size: 85%;
   }
 
  
@@ -122,7 +124,7 @@ h2{
   0%{
      
      opacity: 0;
-     background-size: 50rem;
+     background-size: 80rem;
      
   }
   
@@ -135,6 +137,8 @@ h2{
 }
 /* RESPONSIVE */
 
+  
+
 
 @media only screen and (max-width: 1200px) {
   html{
@@ -145,7 +149,7 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    padding: 20rem 1rem;
+    padding: 10% 1rem;
    }
   h2{
     font-size: 3rem;
@@ -180,9 +184,9 @@ h2{
     padding: 40% 1rem;
    }
   h2{
-    font-size: 2.2rem;
+    font-size: 3rem;
     padding: 0;
-    margin: 3rem;
+    margin: 3rem 1rem;
   }
   .contactBtn{
     margin: 4rem 0 8rem 0  ;
@@ -217,7 +221,7 @@ h2{
   h2{
     font-size: 2.2rem;
     padding: 0;
-    margin: 3rem;
+    margin: 3rem 1rem;
   }
   .contactBtn{
     margin: 4rem 0 8rem 0  ;
@@ -236,3 +240,10 @@ h2{
   }
   
 }
+@media screen and (max-height: 700px) {
+ 
+  h2{
+    padding: 1rem ;
+    
+  }
+};

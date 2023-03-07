@@ -15,7 +15,7 @@ root.render(
         <BarLoader
           loading="true"
           color="rgba(54, 152, 214, 1)"
-          height="4"
+          height="5px"
           width="100vw"
           speedMultiplier=".5"
         />
