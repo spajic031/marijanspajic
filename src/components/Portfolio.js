@@ -19,7 +19,7 @@ class Portfolio extends React.Component {
     return (
       <div className="porfolio">
         <div className="wrapper">
-          <h1>Meine Projekte</h1>
+          <h1 className="mpHeader">Meine Projekte</h1>
           <div className="mainWrapper">
             <div className="row">
               <h1>Entwicklung</h1>
@@ -66,13 +66,17 @@ class Portfolio extends React.Component {
             <div className="row">
               <h1>Design</h1>
               <div className="w4 window">
-                <Modal img="lenser-long.png" class1="hidden" class2="hidden" />
+                <Modal img="lenser-long.webp" class1="hidden" class2="hidden" />
               </div>
               <div className="w5 window">
-                <Modal img="hungree-long.png" class1="hidden" class2="hidden" />
+                <Modal
+                  img="hungree-long.webp"
+                  class1="hidden"
+                  class2="hidden"
+                />
               </div>
               <div className="w6 window">
-                <Modal img="wm-long.png" class1="hidden" class2="hidden" />
+                <Modal img="wm-long.webp" class1="hidden" class2="hidden" />
               </div>
             </div>
           </div>
