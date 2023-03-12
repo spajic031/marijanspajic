@@ -1,6 +1,6 @@
 
 .wrapper{
-margin-top: 5vh;
+margin-top: 10vh;
 
  display: flex;
  flex-direction: column;
@@ -178,7 +178,7 @@ body.active-modal {
   }
   .img-modal{
     height: auto;
-    width: 90vw;
+    width: 60vw;
 }
   }
 @media only screen and (max-width: 1200px) {
@@ -286,7 +286,7 @@ body.active-modal {
       padding: .8rem 2.5rem;
       font-size: 1rem;
     }
-
+   
   }
 
   @media only screen and (max-width: 400px) {
@@ -297,16 +297,3 @@ body.active-modal {
     }
    
   }
-  @media screen and (max-height: 700px) {
- 
-    .img-modal{
-      max-width: 70vw; 
-    }
-    .modal-text{
-     
-      margin: 1.5rem 1.5rem;
-    }
-    .btn{
-      padding: .8rem 3rem;
-    }
-  };

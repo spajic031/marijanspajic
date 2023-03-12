@@ -59,7 +59,7 @@ class About extends React.Component {
             <h3>
               Ich bin Web Application Developer und UX/UI Designer. Zurzeit lebe
               ich in Karlsruhe. Begeistert und engagiert programmiere und
-              gestalte ich Web Anwendungen - angefangen beim Design über
+              gestalte ich Web Anwendungen - angefangen beim Design, über
               Frontend bis Backend. Meine Interessen liegen in den neusten
               Technologien, der Web-Entwicklung und in der allgemeinen
               Informatik.
