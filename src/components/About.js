@@ -12,7 +12,7 @@ class About extends React.Component {
         "React",
         "Vue.JS",
         "Node.JS",
-        "SQLite3",
+        "PostgreSQL",
       ],
       text: "Meine Fähigkeiten",
     };
@@ -107,7 +107,7 @@ class About extends React.Component {
             />
             <img
               className="s-icon"
-              src={"/icons/sql.png"}
+              src={"/icons/postgreSQL.png"}
               alt="sql"
               onClick={() => this.changeTitle(6)}
             />

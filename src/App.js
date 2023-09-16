@@ -30,7 +30,7 @@ function App() {
             <img
               className="s-icon"
               src={"/icons/linkedin.png"}
-              alt="javascript"
+              alt="linkedIn"
               onClick={() =>
                 link("https://www.linkedin.com/in/marijan-spajic-9677861bb/")
               }
@@ -38,7 +38,7 @@ function App() {
             <img
               className="s-icon"
               src={"/icons/github.png"}
-              alt="typescript"
+              alt="github"
               onClick={() => link("https://github.com/spajic031")}
             />
           </div>
